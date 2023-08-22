@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/p7ZqGlK.png" alt="Linux file permissions"/>
+<img src="https://i.imgur.com/3X7Lk0a.png" alt="Linux file permissions"/>
 </p>
 
 <h1>Apply filters to SQL queries</h1>
