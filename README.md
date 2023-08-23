@@ -34,3 +34,18 @@ After investigating the suspicious login attempts, I believe there is an issue w
 
 This query returns all login attempts that occurred in countries outside of the USA. First, I selected all data from the log_in_attempts table. Then, I used the WHERE NOT clause to filter for countries that is outside the USA. I used LIKE with 'US%' as the pattern to match because the dataset represents USA as US and USA. The % sign represents any number of unspecified characters after US when used with the LIKE operator. 
 
+<h2>Retrieve employees in Marketing</h2>
+
+My team wants to perform security updates on employee machines in the Marketing department. To do this, I have to get information on which employee machines to update. The following code demonstrates how I created a SQL query to employee machines from employees in the Marketing department in the East building. 
+
+<img src="https://i.imgur.com/mJxKG8G.png" alt="sql4"/>
+
+This query returns all employees who is in the Marketing department and is located in the East office building. First, I selected all data from the employees table. Then, I used the WHERE clause with AND to filter for employees who work in the Marketing department and in the East building. I used LIKE with East% as the pattern to match because the data in the office column represents the East building with the specific office number. 
+
+<h2>Retrieve employees in Finance or Sales</h2>
+
+The machines for employees in the Finance and Sales departments also need to be updated. Since a different security update is needed, I have to get information on employees only from these two departments. The following code demostrates how I created a SQL query to filter for employee machines from the Finance and Sales departments.
+
+<img src="https://i.imgur.com/tIbHlLa.png" alt="sql5"/>
+
+This query returns all employees who work in the Finance and Sales departments. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with OR to filter for employees who are in the Finance and Sales departments. I used the OR operator instead of AND because I want all employees who are in either department.
