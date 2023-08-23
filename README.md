@@ -49,3 +49,15 @@ The machines for employees in the Finance and Sales departments also need to be 
 <img src="https://i.imgur.com/tIbHlLa.png" alt="sql5"/>
 
 This query returns all employees who work in the Finance and Sales departments. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with OR to filter for employees who are in the Finance and Sales departments. I used the OR operator instead of AND because I want all employees who are in either department.
+
+<h2>Retrieve all employees not in IT</h2>
+
+My team needs to make one more security update to employee machines who are not in the Information Technology department. To make this update, I first have to get information on these employees. The following code demostrates how I created a SQL query to filter for employee machines from employees not in the Information Technology department. 
+
+<img src="https://i.imgur.com/KGQtk2f.png" alt="sql6"/>
+
+This query returns all employee machines not in the Information Technology department. First, I selected all data from the employees table. Then, I used the WHERE with the != operator to filter for employees not in this department. Using != or <> is an alternative of using the NOT operator. 
+
+<h2>Summary</h2>
+
+I applied filters to SQL queries to get specific data on login attempts and employee machines. I used two different tables to retrieve this information (log_in_attempts and employees). I used the AND, OR, NOT operators to filter results to retreieve data needed for each task. I also used the LIKE and the % wildcard to filter for patterns within the results. 
